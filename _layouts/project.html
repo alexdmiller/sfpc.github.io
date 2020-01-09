@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="row">
+{% if content %}
+  <section class="col-md-12 col-sm-12">
+    <h1>{{ page.title }}</h1>
+  </section>
+
+  <section class="col-md-6 col-sm-6">
+    {{content}}
+    {% capture folder %}static/img{{ page.id }}{% endcapture %}
+    <br /><br />
+  </section>
+
+  <section class="col-md-6 col-sm-6">
+    Artist: {{ page.artist }}
+  </section>
+
+  <section class="col-md-12 col-sm-12">
+    {% include image-gallery.html folder=folder %}
+  </section>
+{% endif %}
+</div>

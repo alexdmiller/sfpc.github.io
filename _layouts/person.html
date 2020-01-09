@@ -10,7 +10,7 @@ layout: default
 		{% if projects != '' %}
 		<h3>Projects</h3>
 		{% for project in projects %}
-			{% include project.html project=project %}
+			{% include project-preview.html project=project %}
 		{% endfor %}
 		{% endif %}
 	</section>

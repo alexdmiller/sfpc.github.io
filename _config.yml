@@ -28,3 +28,9 @@ defaults:
       type: "people"
     values:
       layout: "person"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"

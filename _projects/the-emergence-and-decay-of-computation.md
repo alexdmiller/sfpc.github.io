@@ -1,8 +1,7 @@
 ---
-name: The Emergence and Decay of Computation
+title: The Emergence and Decay of Computation
 artist: alexander-miller
 ---
-
 <iframe src="https://player.vimeo.com/video/336939272" width="480" height="270" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/336939272">The Emergence and Decay of Computation</a> from <a href="https://vimeo.com/alexmiller">SPACEFILLER</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
