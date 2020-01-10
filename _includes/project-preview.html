@@ -4,7 +4,13 @@
 
 <div class="project-preview">
   <a href="{{project.url}}" target="{{ include.target }}">
-    <h4>{{project.title}}</h4>
+    <h4>
+      <em>{{project.title}}</em> <br />
+      {% assign people = site.people | where: "slug", project.artist %}
+      {% for person in people %}
+        {{ person.title }} 
+      {% endfor %}
+    </h4>
     {% capture folder %}static/img/projects/{{ include.project.slug }}{% endcapture %}
     {% for file in site.static_files %}
       {% if file.path contains folder %}
