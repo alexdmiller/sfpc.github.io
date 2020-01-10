@@ -1,9 +1,9 @@
 <style>
-  .project-preview img {width: 50%; display: block;}
+  .project-preview img {width: 100%; display: block;}
 </style>
 
 <div class="project-preview">
-  <a href="{{project.url}}">
+  <a href="{{project.url}}" target="{{ include.target }}">
     <h4>{{project.title}}</h4>
     {% capture folder %}static/img/projects/{{ include.project.slug }}{% endcapture %}
     {% for file in site.static_files %}

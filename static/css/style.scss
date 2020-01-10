@@ -387,3 +387,30 @@ blockquote {
 	}
 
 }
+
+.container.headless {
+	width: 100% !important;
+	overflow-x: hidden;
+	padding: 0;
+
+	p {
+		font-size: 1.4em;
+		line-height: 1.2em;
+		padding-left: 20px;
+	}
+
+	h1 {
+    border-bottom: 2px solid #000;
+    padding-left: 20px;
+    margin: 0 0 20px 0;
+    background-color: #fff5d8;
+    height: 40px;
+  }
+
+  h1 i.fa {
+ 	  font-size: 0.7em;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -5px;
+  }
+}

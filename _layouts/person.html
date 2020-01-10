@@ -4,14 +4,14 @@ layout: default
 <div class="row">
 {% if content %}
 	<section class="col-md-6  col-sm-6">
-		<h1>{{ page.title }}</h1>
+		<h1><i class="fa fa-user"></i>{{ page.title }}</h1>
 		{{content}}
 		{% assign projects = site.projects | where: "artist", page.slug %}
 		{% if projects != '' %}
-		<h3>Projects</h3>
-		{% for project in projects %}
-			{% include project-preview.html project=project %}
-		{% endfor %}
+			<h3>Projects</h3>
+			{% for project in projects %}
+				{% include project-preview.html project=project %}
+			{% endfor %}
 		{% endif %}
 	</section>
 {% endif %}

@@ -1,30 +1,29 @@
 ---
 layout: default
 ---
+<h1><i class="fa fa-file"></i> <i>{{ page.title }}</i></h1>
+
 <div class="row">
 {% if content %}
-  <section class="col-md-12 col-sm-12">
-    <h1>{{ page.title }}</h1>
-  </section>
-
   <section class="col-md-6 col-sm-6">
     {{content}}
     {% capture folder %}static/img{{ page.id }}{% endcapture %}
-    <br /><br />
   </section>
 
   <section class="info col-md-4 col-md-offset-1 col-sm-6">
-    <h4>Artist</h4>
     {% assign people = site.people | where: "slug", page.artist %}
     {% for person in people %}
-      <a href="{{ person.url }}">
-        <h4>{{ person.title }}</h4>
-        <img src="{{site.baseurl}}/static/img/{{ person.id }}.jpg"/>
-      </a>
+      <strong>
+        Artist: 
+        <a href="{{ person.url }}">
+          {{ person.title }} <br />
+          <img src="{{site.baseurl}}/static/img/{{ person.id }}.jpg"/>
+        </a>
+      </strong>
     {% endfor %}
   </section>
 
-  <section class="col-md-12 col-sm-12">
+  <section class="col-md-12 col-sm-12" style="margin-top: 50px">
     {{ page.video }}
     {% include image-gallery.html folder=folder %}
   </section>
