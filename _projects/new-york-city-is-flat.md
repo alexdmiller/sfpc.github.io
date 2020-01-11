@@ -1,8 +1,8 @@
 ---
 title: New York City is flat, almost...
 artist: roy-macdonald
-video:
-    <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/143779655" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+vimeo:
+    - 143779655
 ---
 This is a visualization of the streets of New York City, which moves through these following the bicycle route I made everyday from the [School For Poetic Computation](http://sfpc.io) in Manhattan's East Village to Brooklyn's Crown Heights where I lived, making an emphasis on the elevation of the streets.
 
