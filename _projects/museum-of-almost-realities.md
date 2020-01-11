@@ -1,0 +1,5 @@
+---
+title: The Museum of Almost Realities
+artist: april-soetarman
+---
+The Museum of Almost Realities (2017) is an immersive narrative installation which invites the visitor to browse a gallery of artifacts from the life they might have had, from the license plate of the car that didn’t hit them to the apartment keys of the city they might have lived in instead. Visitors are also invited to contribute their own regrets, and receive a procedurally generated receipt of their own almost reality. The narrative created by the artifacts on display serves as a gateway for visitors to explore their own mental museum, a communal coping mechanism shared between the artist and the viewer; all of the associated vignettes are based on the artist's own own life events, as a form of an alternate-reality autobiography. The piece is orchestrated with both a tension and a release - giving a glimpse of the way things might have been, but also acknowledging the good in the current reality. It invites the visitor to contemplate how we curate our own personal narratives, and acknowledge the importance of what we choose to keep, remember, and let go. 
