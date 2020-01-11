@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
+<h1><i class="fa fa-user"></i>{{ page.title }}</h1>
+
 <div class="row">
 {% if content %}
 	<section class="col-md-6  col-sm-6">
-		<h1><i class="fa fa-user"></i>{{ page.title }}</h1>
 		{{content}}
 		{% assign projects = site.projects | where: "artist", page.slug %}
 		{% if projects != '' %}
