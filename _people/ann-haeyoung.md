@@ -1,11 +1,12 @@
 ---
-title: ann tbd
+title: ann haeyoung
 affiliation:
 - class: Fall 2017
   role: Student
 - class: Spring 2018
   role: TA
 instagram: ann_tbd
+
 github: a-tbd
 website: https://www.a-tbd.com
 place: NYC

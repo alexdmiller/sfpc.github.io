@@ -10,16 +10,16 @@ layout: default
     {% capture folder %}static/img{{ page.id }}{% endcapture %}
   </section>
 
-  <section class="info col-md-4 col-md-offset-1 col-sm-6">
+  <section class="info col-md-3 col-md-offset-1 col-sm-6">
     {% assign people = site.people | where: "slug", page.artist %}
     {% for person in people %}
-      <strong>
-        Artist: 
-        <a href="{{ person.url }}">
-          {{ person.title }} <br />
-          <img src="{{site.baseurl}}/static/img/{{ person.id }}.jpg"/>
-        </a>
-      </strong>
+      <p>
+          Artist: <br />
+          <a href="{{ person.url }}">
+            {{ person.title }} <br />
+            <img src="{{site.baseurl}}/static/img/{{ person.id }}.jpg"/>
+          </a>
+      </p>
     {% endfor %}
   </section>
 
